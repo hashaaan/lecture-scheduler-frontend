@@ -1,0 +1,57 @@
+#custom-sider.ant-layout.ant-layout-has-sider {
+  min-height: 100vh;
+}
+
+#custom-sider .trigger {
+  padding: 0 24px;
+  font-size: 18px;
+  line-height: 64px;
+  cursor: pointer;
+  transition: color 0.3s;
+  float: left;
+}
+
+#custom-sider .trigger.right {
+  float: right;
+}
+
+#custom-sider .trigger:hover {
+  color: #1890ff;
+}
+
+#custom-sider .logo {
+  height: 32px;
+  line-height: 32px;
+  margin: 16px;
+  color: #fff;
+  text-align: center;
+  background: rgba(255, 255, 255, 0.3);
+  text-overflow: ellipsis;
+}
+
+.site-layout .site-layout-background {
+  background: #fff;
+}
+
+#custom-sider .ant-menu-vertical > .ant-menu-item,
+#custom-sider .ant-menu-inline > .ant-menu-item {
+  height: 60px;
+  line-height: 60px;
+}
+
+.ant-modal-title {
+  text-align: center;
+  font-weight: bold;
+}
+
+.custom-form .custom-form-btns .ant-form-item-control-input-content {
+  display: flex;
+  justify-content: space-between;
+  padding: 0px 150px;
+}
+
+.ant-form-item-explain {
+  font-size: 10px;
+  padding-top: 2px;
+  padding-bottom: 12px;
+}
